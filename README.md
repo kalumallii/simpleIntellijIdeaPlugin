@@ -12,6 +12,6 @@ Instructions to import the project.
 - Go to Project Structure and create a new "IntelliJ Platform Plugin SDK".
 - Select the IntelliJ IDEA installed location for home directory of SDK.
 - Select your JDK version. Apply settings.
-- Click the down arrow on top left corner and add a new 'Plugin' configuration by clicking on the + sign.
+- Click the down arrow on top right corner and add a new 'Plugin' configuration by clicking on the + sign.
 - Apply settings and click on run or debug icon.
 - Plugin will be compiled and a new instance of IntelliJ IDEA will be opened with new plugin installed.
