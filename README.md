@@ -15,3 +15,4 @@ Instructions to import the project.
 - Click the down arrow on top right corner and add a new 'Plugin' configuration by clicking on the + sign.
 - Apply settings and click on run or debug icon.
 - Plugin will be compiled and a new instance of IntelliJ IDEA will be opened with new plugin installed.
+- A new tool item "Baloon Popup" will be added to the toolbar.
