@@ -1,0 +1,45 @@
+<idea-plugin version="2">
+  <id>com.ideasample.baloonpopup</id>
+  <name>Baloon Popup</name>
+  <version>1.0</version>
+  <vendor email="kasun32@gmail.com" url="http://www.twitter.com/kalumallii">Twitter</vendor>
+
+  <description><![CDATA[
+      This is a simple plugin for IntelliJ IDEA to display a popup.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Baloon popup and about added
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <group id="baloonpopup" text="_Baloon Popup" description="Shows a baloon popup">
+      <add-to-group group-id="MainMenu" anchor="last"/>
+      <action class="com.ideasample.baloonpopup.BaloonPopup" id="showbaloon" text="_Show Baloon" description="Shows a baloon popup"/>
+      <action class="com.ideasample.baloonpopup.About" id="aboutbaloon" text="_About" description="About baloon popup"/>
+    </group>
+  </actions>
+
+</idea-plugin>
