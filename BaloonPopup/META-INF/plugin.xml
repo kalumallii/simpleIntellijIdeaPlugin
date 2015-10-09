@@ -40,6 +40,7 @@
       <action class="com.ideasample.baloonpopup.BaloonPopup" id="showbaloon" text="_Show Baloon" description="Shows a baloon popup"/>
       <action class="com.ideasample.baloonpopup.About" id="aboutbaloon" text="_About" description="About baloon popup"/>
       <action class="com.ideasample.baloonpopup.NotificationWithLog" id="notificationwithlog" text="_Show Notification" description="Show a notification"/>
+      <action class="com.ideasample.baloonpopup.RefreshAction" id="refresh" text="_Refresh Icons" description="Refresh file icon"/>
     </group>
   </actions>
 
